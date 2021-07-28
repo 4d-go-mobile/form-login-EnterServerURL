@@ -10,16 +10,18 @@ First let user type the server https url of your server.
 
 <img src="Screenshot.png" width="25%" height="25%"/>
 
+> 💡 If the different server has not the same data, do not embedded data
+
 ## Requirements
 
 * 4D 19.x submit 268808 minimum
 
-### add this template to your project
+## Install
 
 Currently it is not possible to select it in projet editor but we could add it manually
 
-* To use a login form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/login` folder.
-* Then drop this login form project content from [release][release-url] into a `EnterServerURL` folder in to `YourDatabase.4dbase/Resources/Mobile/form/login`
+* Create a `YourDatabase.4dbase/Resources/Mobile/form/login` folder.
+* Then drop [release][release-url] zip content into a `EnterServerURL` folder into `YourDatabase.4dbase/Resources/Mobile/form/login`
 * For this template, add `"login":"/EnterServerURL"` in the file `project.4dmobileapp` (⚠️ project must not be opened)
 
 <!-- MARKDOWN LINKS & IMAGES -->
