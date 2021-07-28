@@ -1,5 +1,5 @@
 {
   "type": "login",
-  "name": "enterServerURL",
+  "name": "EnterServerURL",
   "inject": true
 }
