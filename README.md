@@ -2,6 +2,7 @@
 
 [![Language][swift-shield]][swift-url]
 [![check][check-shield]][check-url]
+[![release][release-shield]][release-url]
 
 First let user type the server https url of your server.
 
@@ -18,7 +19,7 @@ First let user type the server https url of your server.
 Currently it is not possible to select it in projet editor but we could add it manually
 
 * To use a login form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/login` folder.
-* Then drop this login form project content into a `EnterServerURL` folder in to `YourDatabase.4dbase/Resources/Mobile/form/login
+* Then drop this login form project content from [release][release-url] into a `EnterServerURL` folder in to `YourDatabase.4dbase/Resources/Mobile/form/login`
 * For this template, add `"login":"/EnterServerURL"` in the file `project.4dmobileapp` (⚠️ project must not be opened)
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -27,3 +28,6 @@ Currently it is not possible to select it in projet editor but we could add it m
 [swift-url]: https://developer.apple.com/swift/
 [check-shield]: https://github.com/4d-go-mobile/form-login-EnterServerURL/workflows/%E2%9C%85%20check/badge.svg
 [check-url]: https://github.com/4d-go-mobile/form-login-EnterServerURL/actions?query=workflow%3A%22%E2%9C%85+check%22
+[release-shield]: https://img.shields.io/github/v/release/4d-go-mobile/form-login-EnterServerURL
+[release-url]: https://github.com/4d-go-mobile/form-login-EnterServerURL/releases
+
