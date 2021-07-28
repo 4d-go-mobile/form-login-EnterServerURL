@@ -18,8 +18,8 @@ First let user type the server https url of your server.
 Currently it is not possible to select it in projet editor but we could add it manually
 
 * To use a login form template, the first thing you'll need to do is create a `YourDatabase.4dbase/Resources/Mobile/form/login` folder.
-* Then drop the login form project content into a `EnterServerURL` folder.
-* For this template, add `"login":"/EnterServerURL"` in the file project.4dmobileapp (⚠️ project must not be opened)
+* Then drop this login form project content into a `EnterServerURL` folder in to `YourDatabase.4dbase/Resources/Mobile/form/login
+* For this template, add `"login":"/EnterServerURL"` in the file `project.4dmobileapp` (⚠️ project must not be opened)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
